@@ -1,0 +1,187 @@
+{
+	"nav": {
+		"logoAlt": "Alwaab Logo",
+		"openMenu": "Open main menu",
+		"closeMenu": "Close main menu",
+		"languageEnglish": "EN",
+		"languageArabic": "AR",
+		"switchToEnglish": "Switch to English",
+		"switchToArabic": "Switch to Arabic",
+		"links": ["Home", "Who we serve", "Why Alwaab", "Contact" ,"Explore products"]
+	},
+	"seo": {
+		"title": "Alwaab Food Supplies | Food Supply for Hospitality & Retail",
+		"description": "Reliable fresh produce, meat, seafood, dairy, frozen and pantry supply for restaurants, hotels, cafés, caterers and retailers.",
+		"imageAlt": "Food supply for hospitality and retail by Alwaab Food Supplies"
+	},
+	"hero": {
+		"kicker": "Food supply for hospitality & retail",
+		"title": "The ingredients your business runs on.",
+		"description": "Fresh produce, meat, seafood, dairy, frozen and pantry goods for restaurants, hotels, cafés, caterers and retailers — consistent in quality, reliable in delivery.",
+		"contactCta": "Contact Us"
+	},
+	"categories": {
+		"kicker": "Our Range",
+		"title": "Everything your kitchen stocks, from one supplier.",
+		"description": "Order across categories and receive them together, with ranges shaped around your menu, specifications and volumes.",
+		"items": [
+			{ "id": "produce", "tag": "Fresh", "title": "Fresh Produce", "desc": "Vegetables, fruit, herbs and salad leaves, chosen for freshness and consistency." },
+			{ "id": "meat", "tag": "Chilled · Frozen", "title": "Meat & Poultry", "desc": "Beef, lamb, veal, chicken and prepared cuts." },
+			{ "id": "seafood", "tag": "Chilled · Frozen", "title": "Seafood", "desc": "Whole fish, fillets, prawns and shellfish." },
+			{ "id": "dairy", "tag": "Chilled", "title": "Dairy & Eggs", "desc": "Milk, cream, butter, cheese and eggs." },
+			{ "id": "frozen", "tag": "Frozen", "title": "Frozen Foods", "desc": "Vegetables, fruit, fries, proteins and desserts." },
+			{ "id": "pantry", "tag": "Ambient", "title": "Dry & Pantry", "desc": "Rice, flour, pulses, pasta and grains." },
+			{ "id": "bakery", "tag": "Fresh · Frozen", "title": "Bakery", "desc": "Breads, rolls, pastries and part-baked lines." },
+			{ "id": "oils", "tag": "Ambient", "title": "Oils, Spices & Sauces", "desc": "Cooking oils, spices, sauces and dressings." }
+		],
+		"rangesTitle": "Four storage ranges, one delivery",
+		"ranges": [
+			{ "title": "Fresh", "desc": "Produce, herbs and bakery." },
+			{ "title": "Chilled", "desc": "Meat, poultry, seafood and dairy." },
+			{ "title": "Frozen", "desc": "Vegetables, proteins and desserts." },
+			{ "title": "Ambient", "desc": "Rice, grains, oils and spices." }
+		]
+	},
+	"productCatalog": {
+		"title": "Browse our products",
+		"description": "Explore the products available across our supply categories.",
+		"allProducts": "All products",
+		"empty": "No products found in this category.",
+	"items": [
+  { "id": "tomatoes", "categoryId": "produce", "tags": ["Fresh"], "title": "Fresh tomatoes", "description": "Selected tomatoes for everyday kitchen use." },
+  { "id": "leafy-greens", "categoryId": "produce", "tags": ["Fresh"], "title": "Leafy greens", "description": "A selection of salad leaves and cooking greens." },
+  { "id": "fresh-herbs", "categoryId": "produce", "tags": ["Fresh"], "title": "Fresh herbs", "description": "Aromatic herbs for preparation and finishing." },
+  { "id": "potatoes-onions", "categoryId": "produce", "tags": ["Fresh"], "title": "Potatoes & onions", "description": "Everyday root vegetables for bulk kitchen use." },
+  { "id": "cucumbers-peppers", "categoryId": "produce", "tags": ["Fresh"], "title": "Cucumbers & peppers", "description": "Salad and cooking vegetables for daily service." },
+  { "id": "citrus-fruit", "categoryId": "produce", "tags": ["Fresh"], "title": "Citrus & seasonal fruit", "description": "Fresh fruit for menus, juices and desserts." },
+
+  { "id": "beef-cuts", "categoryId": "meat", "tags": ["Chilled", "Frozen"], "title": "Beef cuts", "description": "Choice cuts for a range of kitchen applications." },
+  { "id": "lamb-veal", "categoryId": "meat", "tags": ["Chilled", "Frozen"], "title": "Lamb & veal", "description": "Chilled and frozen cuts for grills and slow cooking." },
+  { "id": "poultry", "categoryId": "meat", "tags": ["Chilled", "Frozen"], "title": "Chicken & poultry", "description": "Whole birds and prepared poultry cuts." },
+  { "id": "minced-meat", "categoryId": "meat", "tags": ["Chilled", "Frozen"], "title": "Minced meat & burgers", "description": "Minced meat and ready-to-cook burger patties." },
+  { "id": "sausages", "categoryId": "meat", "tags": ["Chilled"], "title": "Sausages & prepared meats", "description": "Ready-to-cook and processed meat products." },
+
+  { "id": "whole-fish", "categoryId": "seafood", "tags": ["Chilled", "Frozen"], "title": "Whole fish & fillets", "description": "A selection of whole fish and ready-to-prepare fillets." },
+  { "id": "prawns", "categoryId": "seafood", "tags": ["Chilled", "Frozen"], "title": "Prawns & shellfish", "description": "Shellfish options for hot and cold dishes." },
+  { "id": "squid-calamari", "categoryId": "seafood", "tags": ["Frozen"], "title": "Squid & calamari", "description": "Cleaned and ready-to-cook cephalopods." },
+  { "id": "salmon-tuna", "categoryId": "seafood", "tags": ["Chilled", "Frozen"], "title": "Salmon & tuna", "description": "Premium fish for grills, sushi and fine dining." },
+
+  { "id": "dairy", "categoryId": "dairy", "tags": ["Chilled"], "title": "Milk & cream", "description": "Everyday dairy essentials for professional kitchens." },
+  { "id": "cheese", "categoryId": "dairy", "tags": ["Chilled"], "title": "Cheese", "description": "Cheeses for cooking, baking and service." },
+  { "id": "butter-ghee", "categoryId": "dairy", "tags": ["Chilled"], "title": "Butter & ghee", "description": "Cooking and baking staples in catering formats." },
+  { "id": "eggs", "categoryId": "dairy", "tags": ["Chilled"], "title": "Eggs", "description": "Fresh eggs supplied in trays for daily kitchen use." },
+  { "id": "yogurt-labneh", "categoryId": "dairy", "tags": ["Chilled"], "title": "Yogurt & labneh", "description": "Chilled dairy for breakfast, sauces and sides." },
+
+  { "id": "frozen-vegetables", "categoryId": "frozen", "tags": ["Frozen"], "title": "Frozen vegetables & fruit", "description": "Convenient frozen produce for consistent preparation." },
+  { "id": "fries", "categoryId": "frozen", "tags": ["Frozen"], "title": "Fries & frozen sides", "description": "Frozen potato products and side dishes." },
+  { "id": "frozen-proteins", "categoryId": "frozen", "tags": ["Frozen"], "title": "Frozen chicken & meat", "description": "Frozen proteins for storage and bulk preparation." },
+
+  { "id": "rice-grains", "categoryId": "pantry", "tags": ["Ambient"], "title": "Rice & grains", "description": "Pantry staples for daily cooking and bulk preparation." },
+  { "id": "flour-pulses", "categoryId": "pantry", "tags": ["Ambient"], "title": "Flour & pulses", "description": "Baking and cooking essentials for the dry store." },
+  { "id": "pasta-noodles", "categoryId": "pantry", "tags": ["Ambient"], "title": "Pasta & noodles", "description": "Dry pasta and noodles in catering packs." },
+  { "id": "sugar-salt", "categoryId": "pantry", "tags": ["Ambient"], "title": "Sugar & salt", "description": "Basic dry-store ingredients in bulk sizes." },
+  { "id": "canned-goods", "categoryId": "pantry", "tags": ["Ambient"], "title": "Canned & preserved foods", "description": "Canned vegetables, legumes and preserved goods." },
+
+  { "id": "bread-rolls", "categoryId": "bakery", "tags": ["Fresh", "Frozen"], "title": "Breads & rolls", "description": "Fresh and part-baked options for service." },
+  { "id": "pastries", "categoryId": "bakery", "tags": ["Fresh", "Frozen"], "title": "Pastries & baked goods", "description": "Bakery choices for breakfast and dessert menus." },
+  { "id": "flatbread", "categoryId": "bakery", "tags": ["Fresh"], "title": "Pita & flatbread", "description": "Everyday breads for mezze, grills and sandwiches." },
+  { "id": "part-baked", "categoryId": "bakery", "tags": ["Frozen"], "title": "Part-baked & dough", "description": "Bake-off lines for fresh results in your own oven." },
+
+  { "id": "cooking-oils", "categoryId": "oils", "tags": ["Ambient"], "title": "Cooking oils", "description": "Versatile oils for preparation and cooking." },
+  { "id": "olive-oil", "categoryId": "oils", "tags": ["Ambient"], "title": "Olive oil", "description": "Olive oils for cooking, dressing and finishing." },
+  { "id": "spices-seasonings", "categoryId": "oils", "tags": ["Ambient"], "title": "Spices & seasonings", "description": "Whole and ground spices for every kitchen." },
+  { "id": "sauces-dressings", "categoryId": "oils", "tags": ["Ambient"], "title": "Sauces & dressings", "description": "Ready-to-use sauces and dressings for service." },
+  { "id": "tomato-paste", "categoryId": "oils", "tags": ["Ambient"], "title": "Tomato paste & ketchup", "description": "Cooking bases and condiments in catering sizes." }
+]
+	},
+	"whoWeServe": {
+		"kicker": "Who we serve",
+		"title": "Built around the way you operate.",
+		"description": "Whether you run a single café or a hotel with several outlets, we plan the range, volumes and delivery days around your operation.",
+		"sectors": [
+			{ "title": "Restaurants", "desc": "Daily fresh deliveries and consistent cuts that keep a busy kitchen running." },
+			{ "title": "Hotels & Resorts", "desc": "Breakfast, banqueting and room-service ranges, supplied across every outlet." },
+			{ "title": "Cafés & Coffee Shops", "desc": "Bakery, dairy and pantry lines in the quantities a café actually uses." },
+			{ "title": "Catering & Events", "desc": "Large orders planned ahead for every event, contract and production run." },
+			{ "title": "Supermarkets & Retail", "desc": "Fresh and packaged lines for shelves, chillers and in-store counters." },
+			{ "title": "Institutions & Corporate Dining", "desc": "Dependable supply for staff restaurants, schools and healthcare kitchens." }
+		]
+	},
+	"whyAlwaab": {
+		"imageAlt": "Fresh vegetables in a crate",
+		"kicker": "Why Alwaab",
+		"title": "A supplier you can plan around.",
+		"description": "What a kitchen needs most from its supplier is consistency. It's the standard we hold ourselves to with every account.",
+		"reasons": [
+			{ "title": "One order, every category", "desc": "Fresh, chilled, frozen and dry goods arrive in a single delivery, so there are fewer suppliers to manage." },
+			{ "title": "Quality you can count on", "desc": "Products are sourced and handled to agreed specifications, delivery after delivery." },
+			{ "title": "Deliveries on your schedule", "desc": "Delivery days and times are agreed around your opening hours and prep." },
+			{ "title": "A team that knows you", "desc": "One point of contact who understands your menu, your volumes and your standing orders." }
+		]
+	},
+	"contact": {
+		"kicker": "Contact",
+		"title": "Let's talk about your supply.",
+		"description": "Tell us about your business and what you order. Our team will get back to you to discuss how we can help.",
+		"cta": "Contact us",
+	"modal": {
+  "title": "Contact us",
+  "closeLabel": "Close",
+  "close": "Close",
+  "nameLabel": "Your name",
+  "namePlaceholder": "Full name",
+  "emailLabel": "Your email",
+  "emailPlaceholder": "name@company.com",
+  "messageLabel": "Message",
+  "messagePlaceholder": "Tell us about your business and what you order",
+  "submit": "Send message",
+  "sending": "Sending...",
+  "successTitle": "Message sent",
+  "successDesc": "Thank you. Our team will get back to you shortly.",
+  "validation": {
+    "nameRequired": "Please enter your name",
+    "nameShort": "Name must be at least 2 characters",
+    "nameLong": "Name is too long",
+    "emailRequired": "Please enter your email",
+    "emailInvalid": "Please enter a valid email",
+    "emailLong": "Email is too long",
+    "messageRequired": "Please write a message",
+    "messageShort": "Message must be at least 10 characters",
+    "messageLong": "Message must be under 2000 characters"
+  },
+  "errors": {
+    "MISSING_FIELDS": "Please fill in all fields",
+    "NAME_TOO_SHORT": "Name must be at least 2 characters",
+    "MESSAGE_TOO_SHORT": "Message must be at least 10 characters",
+    "INVALID_EMAIL": "Please enter a valid email",
+    "TOO_MANY_REQUESTS": "Too many attempts. Please try again later",
+    "CORS_NOT_ALLOWED": "Request blocked. Please contact support",
+    "PRECONDITION_FAILED": "The email service rejected the request. Please check the EmailJS setup and try again",
+    "CONFIG_ERROR": "Email delivery is not configured yet. Please contact support",
+    "SEND_FAILED": "We couldn't send your message. Please try again",
+    "SERVER_ERROR": "Something went wrong. Please try again",
+    "NETWORK": "Can't reach the server. Check your connection"
+  }
+}
+	},
+	"footer": {
+		"logoAlt": "Alwaab Food Supplies",
+		"brandDescription": "Alwaab supplies fresh, chilled, frozen and ambient food products to restaurants, hotels, cafés, caterers and retailers.",
+		"social": {
+			"linkedin": "LinkedIn",
+			"instagram": "Instagram",
+			"x": "X",
+			"facebook": "Facebook"
+		},
+		"companyTitle": "Company",
+		"companyLinks": ["Home", "Who we serve", "Why Alwaab", "Contact us"],
+		"productsTitle": "Products",
+		"products": ["All products", "Fresh", "Chilled", "Frozen", "Ambient"],
+		"contactTitle": "Contact",
+		"phone": "+000 000 0000",
+		"email": "info@example.com",
+		"address": "Head office address to be confirmed",
+		"copyright": "© {{year}} Alwaab Food Supplies. All rights reserved.",
+		"backToTop": "Back to top"
+	}
+}

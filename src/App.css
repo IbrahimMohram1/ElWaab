@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Font';
+  src: url('./assets/fonts/alfont_com_Arsenica-Arabic-Antiqua-Regular-TRIAL.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.instrument-sans {
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.secondFont{
+  font-family: 'Font', sans-serif;
+}
+
+
+/* العربي */
+html[dir='rtl'] *,
+html[dir='rtl'] *::before,
+html[dir='rtl'] *::after {
+  font-family: 'Font', sans-serif;
+}
+
+.hero-section {
+  background-image: url('./assets/Images/hero-bg-1600.webp');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}

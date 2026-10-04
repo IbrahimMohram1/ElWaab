@@ -1,0 +1,128 @@
+[
+  {
+    "file": "hero-bg",
+    "photographer": "Nick Fewings",
+    "cdn": "https://images.unsplash.com/photo-1605279682024-5a25531582dc",
+    "license": "Unsplash License",
+    "size": "3000x2000"
+  },
+  {
+    "file": "contact-bg",
+    "photographer": "Markus Spiske",
+    "cdn": "https://images.unsplash.com/photo-1575218823251-f9d243b6f720",
+    "license": "Unsplash License",
+    "size": "3000x2000"
+  },
+  {
+    "file": "cat-produce",
+    "photographer": "Nithin P John",
+    "cdn": "https://images.unsplash.com/photo-1545898073-346e42dc7357",
+    "license": "Unsplash License",
+    "size": "900x600"
+  },
+  {
+    "file": "cat-meat",
+    "photographer": "Jez Timms",
+    "cdn": "https://images.unsplash.com/photo-1448907503123-67254d59ca4f",
+    "license": "Unsplash License",
+    "size": "900x601"
+  },
+  {
+    "file": "cat-seafood",
+    "photographer": "Mike Bergmann",
+    "cdn": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62",
+    "license": "Unsplash License",
+    "size": "900x675"
+  },
+  {
+    "file": "cat-dairy",
+    "photographer": "Caroline Roose",
+    "cdn": "https://images.unsplash.com/photo-1663841366331-71c93047c6de",
+    "license": "Unsplash License",
+    "size": "900x1350"
+  },
+  {
+    "file": "cat-frozen",
+    "photographer": "Monika Grabkowska",
+    "cdn": "https://images.unsplash.com/photo-1533760077673-895abb64471e",
+    "license": "Unsplash License",
+    "size": "900x1350"
+  },
+  {
+    "file": "cat-pantry",
+    "photographer": "Najm Shihabi",
+    "cdn": "https://images.unsplash.com/photo-1754832002087-2a3e52e56602",
+    "license": "Unsplash License",
+    "size": "900x692"
+  },
+  {
+    "file": "cat-bakery",
+    "photographer": "Angelo Pantazis",
+    "cdn": "https://images.unsplash.com/photo-1579697096985-41fe1430e5df",
+    "license": "Unsplash License",
+    "size": "900x599"
+  },
+  {
+    "file": "cat-oils",
+    "photographer": "Roberta Sorge",
+    "cdn": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5",
+    "license": "Unsplash License",
+    "size": "900x1249"
+  },
+  {
+    "file": "ind-restaurants",
+    "photographer": "Johnathan Macedo",
+    "cdn": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf",
+    "license": "Unsplash License",
+    "size": "1400x933"
+  },
+  {
+    "file": "ind-hotels",
+    "photographer": "Jill Sauve",
+    "cdn": "https://images.unsplash.com/photo-1596252890311-caa6a004a6ee",
+    "license": "Unsplash License",
+    "size": "1400x1750"
+  },
+  {
+    "file": "ind-cafes",
+    "photographer": "Alexander London",
+    "cdn": "https://images.unsplash.com/photo-1518473537958-1d1b23cac484",
+    "license": "Unsplash License",
+    "size": "1400x934"
+  },
+  {
+    "file": "ind-catering",
+    "photographer": "Edwin Petrus",
+    "cdn": "https://images.unsplash.com/photo-1722477936580-84aa10762b0b",
+    "license": "Unsplash License",
+    "size": "1400x788"
+  },
+  {
+    "file": "ind-retail",
+    "photographer": "Tim Photoguy",
+    "cdn": "https://images.unsplash.com/photo-1767364084218-a18f3ea7e93f",
+    "license": "Unsplash License",
+    "size": "1400x934"
+  },
+  {
+    "file": "ind-institutions",
+    "photographer": "Ritupon Baishya",
+    "cdn": "https://images.unsplash.com/photo-1788230548191-9e1ba2942569",
+    "license": "Unsplash License",
+    "size": "1400x933"
+  },
+  {
+    "file": "why-supply",
+    "photographer": "A. C.",
+    "cdn": "https://images.unsplash.com/photo-1620862291735-afb22f894311",
+    "license": "Unsplash License",
+    "size": "1400x2100"
+  },
+  {
+    "file": "products-hero",
+    "photographer": "Alexandr Podvalny",
+    "cdn": "https://images.unsplash.com/photo-1489450278009-822e9be04dff",
+    "license": "Unsplash License",
+    "size": "2600x1730"
+  }
+]
