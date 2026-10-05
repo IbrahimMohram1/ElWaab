@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import logo from '../../assets/Images/logo.png'
+import logo from '../../assets/Images/alwaab-02.png'
 
 const links = [
   { id: 'home', type: 'section' },

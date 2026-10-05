@@ -6,6 +6,7 @@
   font-display: swap;
 }
 .instrument-sans {
+  
   font-family: "Instrument Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -13,8 +14,15 @@
   font-variation-settings: "wdth" 100;
 }
 
+
 .secondFont{
   font-family: 'Font', sans-serif;
+}
+
+@font-face {
+  font-family: 'Digits';
+  src: local('Arial');
+  unicode-range: U+0030-0039; /* 0-9 */
 }
 
 
@@ -24,6 +32,10 @@ html[dir='rtl'] *::before,
 html[dir='rtl'] *::after {
   font-family: 'Font', sans-serif;
 }
+html[dir='rtl'] * {
+  font-family: 'Digits', 'Font', sans-serif;
+}
+
 
 .hero-section {
   background-image: url('./assets/Images/hero-bg-1600.webp');

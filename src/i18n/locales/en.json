@@ -179,8 +179,7 @@
 		"products": ["All products", "Fresh", "Chilled", "Frozen", "Ambient"],
 		"contactTitle": "Contact",
 		"phone": "+000 000 0000",
-		"email": "info@example.com",
-		"address": "Head office address to be confirmed",
+		"email": "info@elwaab.com",
 		"copyright": "© {{year}} Alwaab Food Supplies. All rights reserved.",
 		"backToTop": "Back to top"
 	}

@@ -12,25 +12,46 @@ import { useTranslation } from 'react-i18next'
 import logo from '../../assets/Images/alwaab-02.png'
 
 export default function Footer() {
+
   const { t, i18n } = useTranslation()
+    const lang = i18n.resolvedLanguage || i18n.language;
+
+
+    console.log(
+  'AR:', i18n.language, '|', i18n.resolvedLanguage,
+  '|', t('footer.copyright', { year: 2026 })
+);
   const company = [
-    { to: '/' },
-    { to: '/#who-we-serve' },
-    { to: '/#why-alwaab' },
-    { to: '/#contact' },
+    { id: 'home' },
+    { id: 'who-we-serve' },
+    { id: 'why-alwaab' },
+    { id: 'contact' },
+  ]
+  const productLabels = t('footer.products', { returnObjects: true })
+  const catalogProducts = t('productCatalog.items', { returnObjects: true })
+  const productTagCategories = ['produce', 'dairy', 'frozen', 'pantry']
+  const productLinks = [
+    { label: productLabels[0], to: '/product' },
+    ...productTagCategories.map((categoryId, index) => {
+      const tag = catalogProducts.find((product) => product.categoryId === categoryId)?.tags?.[0]
+      return {
+        label: productLabels[index + 1],
+        to: tag ? `/product?tag=${encodeURIComponent(tag)}` : '/product',
+      }
+    }),
   ]
 
 const socials = [
-  { icon: FaLinkedinIn, href: '#', id: 'linkedin' },
-  { icon: FaInstagram, href: '#', id: 'instagram' },
-  { icon: FaXTwitter, href: '#', id: 'x' },
-  { icon: FaFacebookF, href: '#', id: 'facebook' },
+  // { icon: FaLinkedinIn, href: '#', id: 'linkedin' },
+  // { icon: FaInstagram, href: '#', id: 'instagram' },
+  // { icon: FaXTwitter, href: '#', id: 'x' },
+  // { icon: FaFacebookF, href: '#', id: 'facebook' },
 ]
 
 const contactItems = [
-  { icon: FiPhone, key: 'footer.phone' },
+  // { icon: FiPhone, key: 'footer.phone' },
   { icon: FiMail, key: 'footer.email' },
-  { icon: FiMapPin, key: 'footer.address' },
+  // { icon: FiMapPin, key: 'footer.address' },
 ]
 
 const headingClass =
@@ -51,7 +72,7 @@ const linkClass =
             </p>
 
             <div className="flex gap-2 mt-6">
-              {socials.map(({ icon: Icon, href, id }) => (
+              { socials.length > 0 ? socials.map(({ icon: Icon, href, id }) => (
                 <a
                   key={id}
                   href={href}
@@ -60,7 +81,7 @@ const linkClass =
                 >
                   <Icon />
                 </a>
-              ))}
+              )):null}
             </div>
           </div>
 
@@ -68,11 +89,18 @@ const linkClass =
           <div>
             <h4 className={headingClass}>{t('footer.companyTitle')}</h4>
             <ul className="flex flex-col gap-2">
-              {company.map(({ to }, index) => (
-                <li key={to}>
-                  <Link to={to} className={linkClass}>
+              {company.map(({ id }, index) => (
+                <li key={id}>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      if (id === 'home') window.scrollTo({ top: 0, behavior: 'smooth' })
+                      else document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+                    }}
+                    className={linkClass}
+                  >
                     {t('footer.companyLinks', { returnObjects: true })[index]}
-                  </Link>
+                  </button>
                 </li>
               ))}
             </ul>
@@ -82,11 +110,11 @@ const linkClass =
           <div>
             <h4 className={headingClass}>{t('footer.productsTitle')}</h4>
             <ul className="flex flex-col gap-2">
-              {t('footer.products', { returnObjects: true }).map((item, index) => (
-                <li key={index}>
-                  <a href="#" className={linkClass}>
-                    {item}
-                  </a>
+              {productLinks.map(({ label, to }) => (
+                <li key={to}>
+                  <Link to={to} className={linkClass}>
+                    {label}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -108,9 +136,13 @@ const linkClass =
 
         {/* Bottom bar */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-white/10 mt-14 pt-6">
-          <p className="instrument-sans text-[11px] text-gray-400">
-            {t('footer.copyright', { year: new Date().getFullYear().toLocaleString(i18n.resolvedLanguage || i18n.language) })}
-          </p>
+
+<p
+  dir={i18n.dir()}
+  className="instrument-sans text-[11px] text-gray-400"
+>
+  {t('footer.copyright', { year: new Date().getFullYear() })}
+</p>
 
           <button
             type="button"
